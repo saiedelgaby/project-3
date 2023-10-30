@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>project_3</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/fontawesome.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+        
+
+    </head>
+    <body>
+        <!-- <header>
+        <nav class="navbar navbar-expand-lg navbar-light"style="background-color: #e3f2fd;">
+            <a class="navbar-brand" href="#">
+                <img src="images/SAIED WAEL (1).png" alt="Logo" style="width:60px;" style="border-radius: 50%;">
+              </a>
+            <div class="container-fluid">
+                <a class="navbar-brand text-info m-3" href="#" style="border-right:1px solid #ccc; padding-right: 10px; font-weight: bold;">EGYPT</a>
+              
+               
+              <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Trips
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">CAIRO</a></li>
+                      <li><a class="dropdown-item" href="#">ALEX</a></li>
+                      <li>
+                        <hr class="dropdown-divider bg-info">
+                      </li>
+                      <li><a class="dropdown-item" href="#">LUXOR</a></li>
+                      <li><a class="dropdown-item" href="#">ASWAN</a></li>
+                      <li><a class="dropdown-item" href="#">SHARM ELSHIKH</a></li>
+                      <li><a class="dropdown-item" href="#">ELGLALA</a></li>
+                      <li><a class="dropdown-item" href="#">MORE...</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="container-fluid">
+                <form class="d-flex">
+                    <input class="form-control m-3 border-3 border-info rounded-3" type="search" placeholder="Search" aria-label="Search">
+                  </form>
+                <form class="d-flex">
+                    <button class=" navbtn btn bg-info text-white me-3 border-3 border-info rounded-3 shadow-lg"
+                      type="submit">Search</button>
+                    <button class="navbtn btn bg-info text-white border-3 border-info rounded-3 shadow-lg" type="button"
+                      data-bs-toggle="modal" data-bs-target="#myModal">Login</button>
+                </form>
+            </div>
+          </nav>
+        </header> -->
+        <header> <!-- header -->
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-md navbar-light bg-light  fixed-top " style="  height: 80px;opacity: 0.6;">
+              <div class="container-fluid ">
+                <input type="image" src="images/SAIED WAEL.png" class="  rounded-circle mx-3 shadow" alt="pic" height="65px"
+                  width="65px">
+                <a class="navbar-brand text-info m-3" href="#"
+                  style="border-right:1px solid #ccc; padding-right: 10px; font-weight: bold;">EGYPT</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active text-info" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-info" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <button class="nav-link dropdown-toggle text-info border-2 border-info rounded-3" href="#"
+                        id="nav-Dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Trips
+                      </button>
+                      <ul class="dropdown-menu mt-3  fade " aria-labelledby="nav-Dropdown">
+                        <li><a class="dropdown-item text-info" target="_blank" href="">CAIRO</a></li>
+                        <li><a class="dropdown-item text-info" target="_blank" href=""> ALEX</a></li>
+                        <li>
+                          <hr class="dropdown-divider bg-info">
+                        </li>
+                        <li><a class="dropdown-item text-info" target="_blank" href="">LUXOR</a></li>
+                        <li><a class="dropdown-item text-info" target="_blank" href="">ASWAN</a></li>
+                        <li><a class="dropdown-item text-info" target="_blank" href="">SHARM EL SHIKH</a></li>
+                        <li><a class="dropdown-item text-info" target="_blank" href="">EL GLALA</a></li>
+                        <li><a class="dropdown-item text-info" target="_blank" href="">MORE ...</a></li>
+      
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled text-info">About</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <input class="form-control m-3 border-3 border-info rounded-3" type="search" placeholder="Search"
+                      aria-label="Search">
+      
+                  </form>
+                  <form class="d-flex">
+                    <button class=" navbtn btn bg-info text-white me-3 border-3 border-info rounded-3 shadow-lg"
+                      type="submit">Search</button>
+                    <button class="navbtn btn bg-info text-white border-3 border-info rounded-3 shadow-lg" type="button"
+                      data-bs-toggle="modal" data-bs-target="#myModal">Login</button>
+                  </form> <!-- /form -->
+                </div> <!-- /navbar-collapse -->
+      
+              </div>
+            </nav>
+            <!-- /navbar -->
+          </header> <!-- /header -->
+          <!-- /\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+          
+          <!-- /\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+          <div class="modal fade" id="myModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-info ">
+            <h5 class="modal-title text-light shadow-lg font-weight-bolder" id="staticBackdropLabel">Login</h5>
+            <button type="button" class="btn btn-close bg-light " data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- form -->
+            <form>
+              <div class="m-3">
+                <label class="form-label text-info">Email address</label>
+                <input type="email" class="form-control text-info border-3 border-info rounded-2"
+                  aria-describedby="emailHelp">
+                <p class="form-text text-secondary">We'll never share your email with anyone else.</p>
+              </div>
+              <div class="m-3">
+                <label class="form-label text-info">Password</label>
+                <input type="password" class="form-control text-info border-3 border-info rounded-2">
+              </div>
+              <div class="m-3 form-check">
+                <div class="form-check form-switch">
+                  <input class="form-check-input bg-info" type="checkbox" role="switch" checked>
+                  <label class="form-check-label text-info" for="flexSwitchCheckChecked">Remmember me</label>
+                </div>
+              </div> <!-- /form check -->
+
+            </form>
+            <!-- /form -->
+            <div class="modal-footer d-flex  justify-content-between">
+              <button type="submit" class="btn btn-info text-light">Login</button>
+              <button type="button" class="btn btn-info text-light" data-bs-dismiss="modal">Close</button>
+            </div> <!-- /model-footer -->
+          </div> <!-- /model-body -->
+        </div> <!-- /modal-content -->
+      </div> <!-- /modal-dialog -->
+    </div> <!-- /modal -->
+
+    </main>
+    <aside>
+      <div class="container-fluid p-0 " style="position: relative;">
+
+        <div class="d-flex flex-column justify-content-between ms-auto"
+          style="position: fixed;z-index: 90;top: 200px;right:20px;">
+          <div class="aside-icon "><a href="https://www.facebook.com/profile.php?id=100009327931792" target="_blank"><i class="fab fa-facebook-square"></i></a></div>
+          <div class="aside-icon "><a href="https://web.whatsapp.com/01558524777" target="_blank"><i class="fab fa-whatsapp-square"></i></a></div>
+          <div class="aside-icon "><a href="https://x.com/SAIEDELGABY1?t=Op3XlNvmJWljo96GOPm6Kg&s=09"target="_blank"><i class="fab fa-twitter-square"></i></a></div>
+          <div class="aside-icon "><a href="https://www.linkedin.com/in/saied-wael-mohamed-abdalaziz-elgaby-a409b722a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"target="_blank"><i class="fab fa-linkedin"></i></a></div>
+          <div class="aside-icon "><a href="https://instagram.com/saiedelgaby?igshid=OGQ5ZDc2ODk2ZA=="target="_blank"><i class="fab fa-instagram-square"></i></a></div>
+        </div>
+    </aside>
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators ">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/alalam_636307002254891014_25f_4x3.jpg" alt="cairo" class="d-block w-100" style="height: 650px;">
+          <div class="carousel-caption">
+            <h1>CAIRO</h1>
+            <p>We had such a great time in Egypt!</p>
+            <a href="#" class="btn btn-info text-white text-shadow" target="_blank">Visit Us</a>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img src="https://shimaahussien-code.github.io/template_3/images/aswan/img10.jpg" alt="aswan" class="d-block w-100" style="height: 650px;">
+          <div class="carousel-caption">
+            <h1>ASWAN</h1>
+            <p>Thank you, Aswan!</p>
+            <a href="#" class="btn btn-info text-white text-shadow" target="_blank">Visit Us</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://shimaahussien-code.github.io/template_3/images/sharm/img2.jpg" alt="sharm" class="d-block w-100" style="height: 650px;">
+          <div class="carousel-caption">
+            <h1>SHARM EL SHIKH</h1>
+            <p>We love this city!</p>
+            <a href="#" class="btn btn-info text-white text-shadow" target="_blank">Visit Us</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://shimaahussien-code.github.io/template_3/images/galalh/IMG-20230227-WA0040.jpg" alt="sharm" class="d-block w-100" style="height: 650px;">
+          <div class="carousel-caption">
+            <h1>EL GLALH</h1>
+            <p>We love this city!</p>
+            <a href="#" class="btn btn-info text-white text-shadow" target="_blank">Visit Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- /carousel -->
+    </main>
+    <section class="cards">
+
+        <div class="card p-3  text-white shadow-lg"
+          style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color: rgb(158, 217, 219);">
+          <div class="card-body">
+            <h2 class="card-title title">Welcome</h2>
+            <p class="card-text">Are you planning to visit Egypt? We offer the ultimate tour in Egypt, covering Cairo,
+              alex. From a one day trip to a 10 day dream vacation, we will take care of all your needs. book hotels. 24/7
+              Customer Service. .</p>
+            <a href="#" class="btn btn-light text-info  btn-lg m-auto">Learn more</a>
+          </div>
+        </div>
+        <!-- /card -->
+        <hr>
+        <div class="mx-auto my-3 p-5  text-light text-center text-shadow rounded-3 shadow-lg "
+        style="background-color: #096975;">
+        <h1>Popular destinations in Egypt</h1>
+      </div>
+      <div class="accordion" id="accordioncollapse">
+        <div class="accordion-item">
+          <h2 class="accordion-header " id="head1">
+            <button class="accordion-button collapsed btn-outline-info text-info title shadow-lg " type="button"
+              data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+              style="font-size: 25px;">
+              BENI SUEF
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="head1"
+            data-bs-parent="#accordioncollapse">
+            <div class="accordion-body border-info text-secondary">
+                Beni Suef is an Egyptian city located within the cities of South Upper Egypt. It is famous for its many Pharaonic monuments. You can always find expressions of kindness and courage on the faces of those who live there. It is the best country and the best livelihood is found in Beni Suef, and everyone who talks about it praises it and its people.  </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="head2">
+            <button class="accordion-button collapsed btn-outline-info text-info title shadow-lg " type="button"
+              data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+              style="font-size: 25px;">
+              Luxor City
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="head2"
+            data-bs-parent="#accordioncollapse">
+            <div class="accordion-body border-info text-secondary">
+              Luxor, about 500 km south of Cairo, is the site of the ancient city of Thebes. It includes the ruins of
+              the temple complexes at Karnak and Luxor, which stand within the modern city. On the opposite side of the
+              Nile River lie the monuments, temples and tombs on the West Bank Necropolis, which include the Valley of
+              the Kings and Valley of the Queens.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="head3">
+              <button class="accordion-button collapsed btn-outline-info text-info  shadow-lg title" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                aria-controls="collapseThree" style="font-size: 25px;">
+                GIZA CITY
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="head3"
+              data-bs-parent="#accordioncollapse">
+              <div class="accordion-body border-info text-secondary">
+                Major tourist destinations include the millennia-old monuments in the Nile Valley. Principal among them
+              are the Pyramids and Great Sphinx at Giza </div>
+            </div>
+          </div>
+          <hr>
+        <div class="mx-auto mt-3 p-2  text-light text-center text-shadow rounded-3 shadow-lg "
+        style="background-color: #096975;">
+        <h1>Translate From Arabic To English</h1>
+      </div>
+      <div class="card p-3  text-white shadow-lg"
+      style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color: #5bbac6;">
+      <div class="card-body">
+        <h4 class="card-title ">ًWrite and Translate <a href="https://translate.google.com.eg/?hl=en"
+            target="_blank" rel="noopener">Press Here</a></h4>
+        <button
+          class="btn btn-light text-info border border-2 btntranslate .btntranslate::before .btntranslate::after shadow-lg "
+          onclick="copyToClipboard('sentence')" id="btnCopy" style="font-size: 18px;">
+          Copy
+        </button>
+        <br>
+        <textarea id="sentence" class="form-control mx-auto mt-3" rows="5" id="comment" placeholder="translate:"
+          name="text"></textarea>
+      </div>
+    </div>
+    <hr>
+    <div class="mx-auto mt-3 p-2  text-light text-center text-shadow rounded-3 shadow-lg "
+    style="background-color: #096975;">
+    <h1>Translate From Arabic To French</h1>
+  </div>
+  <div class="card p-3  text-white shadow-lg"
+  style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color:  #5bbac6;">
+  <div class="card-body">
+    <h4 class="card-title ">ًWrite and Translate <a href="https://translate.google.com/?sl=ar&tl=fr&op=translate"
+        target="_blank" rel="noopener">Press Here</a></h4>
+    <button
+      class="btn btn-light text-info border border-2 btntranslate .btntranslate::before .btntranslate::after shadow-lg "
+      onclick="copyToClipboard('sentence')" id="btnCopy" style="font-size: 18px;">
+      Copy
+    </button>
+    <br>
+    <textarea id="sentence" class="form-control mx-auto mt-3" rows="5" id="comment" placeholder="translate:"
+      name="text"></textarea>
+  </div>
+</div>
+<hr>
+<div class="mx-auto mt-3 p-2  text-light text-center text-shadow rounded-3 shadow-lg "
+style="background-color: #096975;">
+<h1>Translate From Arabic To Germany</h1>
+</div>
+<div class="card p-3  text-white shadow-lg"
+style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color:  #5bbac6;">
+<div class="card-body">
+<h4 class="card-title ">ًWrite and Translate <a href="https://translate.google.com.eg/?hl=en"
+    target="_blank" rel="noopener">Press Here</a></h4>
+<button
+  class="btn btn-light text-info border border-2 btntranslate .btntranslate::before .btntranslate::after shadow-lg "
+  onclick="copyToClipboard('sentence')" id="btnCopy" style="font-size: 18px;">
+  Copy
+</button>
+<br>
+<textarea id="sentence" class="form-control mx-auto mt-3" rows="5" id="comment" placeholder="translate:"
+  name="text"></textarea>
+</div>
+</div>
+</section>
+<hr class="my-4">
+    <div class="fixed-img fixed-image1">
+        
+    </div>
+    <!-- <div class="numbers">
+        <div class="overlay">
+        </div>
+    </div> -->
+    <section class="tours">
+        <div class="mx-auto mb-3 p-3  text-light text-center text-shadow rounded-3 shadow-lg "
+          style="background-color: rgb(105, 187, 189);">
+          <h1 class="title" style="font-size: 40px;">Popular destinations in Egypt</h1>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-around pb-5 ">
+                <div class="card" style="width: 23rem;">
+                    <img src="https://shimaahussien-code.github.io/template_3/images/cairo/img1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">CAIRO</h5>
+                      <p class="card-text">Capital of Egypt</p>
+                      <button class="btn btn-info text-light mx-auto d-block">Know More</button>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 23rem;">
+                    <img src="https://shimaahussien-code.github.io/template_3/images/alex/IMG-20230227-WA0035.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">ALEXANDRIA</h5>
+                      <p class="card-text">The bride of the Mediterranean</p>
+                      <button class="btn btn-info text-light mx-auto d-block">Know More</button>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 23rem;">
+                    <img src="https://shimaahussien-code.github.io/template_3/images/luxur/img5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">LUXOR</h5>
+                      <p class="card-text">The Capital of the Ancient Kingdom</p>
+                      <button class="btn btn-info text-light mx-auto d-block">Know More</button>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 23rem;">
+                    <img src="https://shimaahussien-code.github.io/template_3/images/cairo/img1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">ASWAN</h5>
+                      <p class="card-text">Nubian City in The South of Egypt</p>
+                      <button class="btn btn-info text-light mx-auto d-block">Know More</button>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 23rem;">
+                    <img src="https://shimaahussien-code.github.io/template_3/images/new%20cairo/IMG-20230227-WA0047.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">NEW CAPITAL</h5>
+                      <p class="card-text">The New Administrative Capital</p>
+                      <button class="btn btn-info text-light mx-auto d-block">Know More</button>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 23rem;">
+                    <img src="https://shimaahussien-code.github.io/template_3/images/sharm/IMG-20230227-WA0036.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">SHARM EL SHEIKH</h5>
+                      <p class="card-text">Beautiful City in Egypt</p>
+                      <button class="btn btn-info text-light mx-auto d-block">Know More</button>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 23rem;">
+                    <img src="https://shimaahussien-code.github.io/template_3/images/siwa/img4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">SIWA</h5>
+                      <p class="card-text">Sunset Oasis</p>
+                      <button class="btn btn-info text-light mx-auto d-block">Know More</button>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 23rem;">
+                    <img src="https://shimaahussien-code.github.io/template_3/images/Hurghada/zyanya-OMwEkftvQKs-unsplash.jpg" class="card-img-top" alt="..."> 
+                    <div class="card-body">
+                      <h5 class="card-title">HURGHADA</h5>
+                      <p class="card-text">City on The Red Sea</p>
+                      <button class="btn btn-info text-light mx-auto d-block">Know More</button>
+                    </div>
+                  </div>
+        </div>
+    </div>
+</section>
+<div class="fixed-img fixed-image2">
+        
+</div>
+<hr class="my-4">
+    <div class="card p-3  text-white shadow-lg" style="background-color:  rgb(105, 187, 189);">
+    <h2 class="text-center text-light m-3 title" style="font-size: 40px;">Thanks For</h2>
+    </div>
+    <section class="wrapper">
+        <div class="container" style="width: 100%; min-height: 500px;">
+  
+          <!-- <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+              <div class="card card-hover text-white card-has-bg click-col thankcard"
+                style="background-image:url('images/WhatsApp\ Image\ 2023-10-30\ at\ 11.10.31\ AM.jpeg');">
+                <img class="card-img d-none" src=""
+                  alt="All thanks and appreciation" alt="All thanks and appreciation">
+                <div class="card-img-overlay d-flex flex-column">
+                  <div class="card-body">
+  
+                    <h4 class="card-title mt-0 "><a class="text-white" herf="#">All thanks and appreciation</a></h4>
+                    <small><i class="far fa-clock"></i> October 30, 2023</small>
+                  </div>
+                  <div class="card-footer">
+                    <div class="media">
+                      <img class="mr-3 rounded-circle" src="images/WhatsApp Image 2023-10-30 at 11.10.31 AM.jpeg" alt="Generic placeholder image"
+                        style="width:100px">
+                      <div class="media-body">
+                        <h6 class="my-0 text-white d-block">ُEng. Saied Wael Mohamed</h6>
+                        <small>FrontEnd web designer</small>
+                      </div>
+                    </div>
+                  </div> 
+                </div> 
+                </div>
+              </div> 
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card card-hover text-white card-has-bg click-col thankcard"
+                  style="background-image:url('images/WhatsApp\ Image\ 2023-10-30\ at\ 11.10.30\ AM.jpeg');">
+                  <img class="card-img d-none" src=""
+                    alt="All thanks and appreciation" alt="All thanks and appreciation">
+                  <div class="card-img-overlay d-flex flex-column">
+                    <div class="card-body">
+    
+                      <h4 class="card-title mt-0 "><a class="text-white" herf="#">All thanks and appreciation</a></h4>
+                      <small><i class="far fa-clock"></i> October 30, 2023</small>
+                    </div>
+                    <div class="card-footer">
+                      <div class="media">
+                        <img class="mr-3 rounded-circle" src="images/WhatsApp Image 2023-10-30 at 11.10.30 AM (1).jpeg" alt="Generic placeholder image"
+                          style="width:100px">
+                        <div class="media-body">
+                          <h6 class="my-0 text-white d-block">ُEng. Saied Wael Mohamed</h6>
+                          <small>FrontEnd web designer</small>
+                        </div>
+                      </div>
+                    </div> 
+                  </div> 
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card card-hover text-white card-has-bg click-col thankcard"
+                      style="background-image:url('images/WhatsApp\ Image\ 2023-10-30\ at\ 11.10.30\ AM\ \(1\).jpeg');">
+                      <img class="card-img d-none" src=""
+                        alt="All thanks and appreciation" alt="All thanks and appreciation">
+                      <div class="card-img-overlay d-flex flex-column">
+                        <div class="card-body">
+        
+                          <h4 class="card-title mt-0 "><a class="text-white" herf="#">All thanks and appreciation</a></h4>
+                          <small><i class="far fa-clock"></i> October 30, 2023</small>
+                        </div>
+                        <div class="card-footer">
+                          <div class="media">
+                            <img class="mr-3 rounded-circle" src="images/WhatsApp Image 2023-10-30 at 11.10.30 AM.jpeg" alt="Generic placeholder image"
+                              style="width:100px">
+                            <div class="media-body">
+                              <h6 class="my-0 text-white d-block">ُEng. Saied Wael Mohamed</h6>
+                              <small>FrontEnd web designer</small>
+                            </div>
+                          </div>
+                        </div> 
+                      </div> 
+                      </div> -->
+                      <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                          <div class="card card-hover text-white card-has-bg click-col thankcard"
+                            style="background-image:url('images/WhatsApp\ Image\ 2023-10-30\ at\ 11.10.30\ AM\ \(1\).jpeg');">
+                            <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street"
+                              alt="All thanks and appreciation" alt="All thanks and appreciation">
+                            <div class="card-img-overlay d-flex flex-column">
+                              <div class="card-body">
+              
+                                <h4 class="card-title mt-0 "><a class="text-white" herf="#">All thanks and appreciation</a></h4>
+                                <small><i class="far fa-clock"></i>  October 30, 2023</small>
+                              </div>
+                              <div class="card-footer">
+                                <div class="media">
+                                  <img class="mr-3 rounded-circle" src="images/WhatsApp Image 2023-10-30 at 11.10.30 AM (1).jpeg" alt="Generic placeholder image"
+                                    style="width:100px">
+                                  <div class="media-body">
+                                    <h6 class="my-0 text-white d-block">Eng. Saied Wael Mohamed</h6>
+                                    <small>BackEnd web developer</small>
+                                  </div>
+                                </div>
+                              </div> <!-- card-footer-->
+                        </div> <!-- /card-img-overlay -->
+                            </div> <!-- /card -->
+                          </div> <!-- /card3 -->
+                        <!-- </div> -->
+                        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                          <div class="card card-hover text-white card-has-bg click-col thankcard"
+                            style="background-image:url('images/WhatsApp\ Image\ 2023-10-30\ at\ 11.10.30\ AM.jpeg');">
+                            <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature"
+                              alt="All thanks and appreciation" alt="All thanks and appreciation">
+                            <div class="card-img-overlay d-flex flex-column">
+                              <div class="card-body">
+              
+                                <h4 class="card-title mt-0 "><a class="text-white" herf="#">All thanks and appreciation</a></h4>
+                                <small><i class="far fa-clock"></i>  October 30, 2023</small>
+                              </div>
+                              <div class="card-footer">
+                                <div class="media">
+                                  <img class="mr-3 rounded-circle" src="images/WhatsApp Image 2023-10-30 at 11.10.30 AM.jpeg" alt="Generic placeholder image"
+                                    style="width:100px">
+                                  <div class="media-body">
+                                    <h6 class="my-0 text-white d-block">Eng. Saied Wael Mohamed</h6>
+                                    <small>FrontEnd web developer</small>
+                                  </div>
+                                </div>
+                              </div> <!-- card-footer -->
+                            </div> <!-- /card-img-overlay -->
+                          </div> <!-- /card -->
+                        </div> <!-- /card3 -->
+                        <div class="col-sm-12 col-md-6 col-lg-4 mb-4 card3">
+                          <div class="card card-hover text-white card-has-bg click-col thankcard"
+                            style="background-image:url('images/WhatsApp\ Image\ 2023-10-30\ at\ 11.10.31\ AM.jpeg');">
+                            <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature"
+                              alt="All thanks and appreciation" alt="All thanks and appreciation">
+                            <div class="card-img-overlay d-flex flex-column">
+                              <div class="card-body">
+              
+                                <h4 class="card-title mt-0 "><a class="text-white" herf="#">All thanks and appreciation</a></h4>
+                                <small><i class="far fa-clock"></i> October 30, 2023</small>
+                              </div>
+                              <div class="card-footer">
+                                <div class="media">
+                                  <img class="mr-3 rounded-circle" src="images/WhatsApp Image 2023-10-30 at 11.10.31 AM.jpeg" alt="Generic placeholder image"
+                                    style="width:100px">
+                                  <div class="media-body">
+                                    <h6 class="my-0 text-white d-block">Eng. Saied Wael Mohamed</h6>
+                                    <small>Fullstack web developer</small>
+                                  </div>
+                                </div>
+                              </div> <!-- card-footer -->
+                            </div> <!-- /card-img-overlay -->
+                          </div> <!-- /card -->
+                        </div> <!-- /card3 -->
+              
+                      </div> <!-- /row -->
+              
+                    </div>
+                  </section>
+                  <hr class="my-4">
+                  <section class="container light"> <!-- postcards news -->
+                    <div class="container py-2">
+    <div class="card p-3  text-white shadow-lg" style="background-color:  rgb(105, 187, 189);">
+    <h2 class="text-center text-light m-3 title" style="font-size: 40px;">EGYPT NEWS</h2>
+    </div>
+    <!-- <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://shimaahussien-code.github.io/template_3/images/galalh/IMG-20230227-WA0039.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Podcast Title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <article class="postcard d-flex light blue"> <!-- 1st card -->
+        <a class="postcard__img_link" href="#">
+          <img class="postcard__img" src="https://shimaahussien-code.github.io/template_3/images/galalh/IMG-20230227-WA0039.jpg" alt="Image Title" />
+        </a>
+        <div class="postcard__text t-dark">
+          <h1 class="postcard__title blue"><a href="#">Podcast Title</a></h1>
+          <div class="postcard__subtitle small">
+            <time datetime="2020-05-25 12:00:00">
+              <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+            </time>
+          </div>
+          <div class="postcard__bar"></div>
+          <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat
+            asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo
+            accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo
+            iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+          <ul class="postcard__tagbox">
+            <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+            <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+            <li class="tag__item play blue">
+              <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+            </li>
+          </ul>
+        </div>
+      </article>
+      <!--\\\\\\\\\\\\\\\\\\\\\\-->
+      <article class="postcard d-flex light blue"> <!-- 1st card -->
+        <a class="postcard__img_link" href="#">
+          <img class="postcard__img" src="https://shimaahussien-code.github.io/template_3/images/aswan/img7.jpg" alt="Image Title" />
+        </a>
+        <div class="postcard__text t-dark">
+          <h1 class="postcard__title blue"><a href="#">Podcast Title</a></h1>
+          <div class="postcard__subtitle small">
+            <time datetime="2020-05-25 12:00:00">
+              <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+            </time>
+          </div>
+          <div class="postcard__bar"></div>
+          <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat
+            asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo
+            accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo
+            iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+          <ul class="postcard__tagbox">
+            <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+            <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+            <li class="tag__item play blue">
+              <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+            </li>
+          </ul>
+        </div>
+      </article>
+      <!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+      <article class="postcard d-flex light blue"> <!-- 1st card -->
+        <a class="postcard__img_link" href="#">
+          <img class="postcard__img" src="https://shimaahussien-code.github.io/template_3/images/luxur/img2.jpg" alt="Image Title" />
+        </a>
+        <div class="postcard__text t-dark">
+          <h1 class="postcard__title blue"><a href="#">Podcast Title</a></h1>
+          <div class="postcard__subtitle small">
+            <time datetime="2020-05-25 12:00:00">
+              <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+            </time>
+          </div>
+          <div class="postcard__bar"></div>
+          <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat
+            asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo
+            accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo
+            iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+          <ul class="postcard__tagbox">
+            <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+            <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+            <li class="tag__item play blue">
+              <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+            </li>
+          </ul>
+        </div>
+      </article>
+      <!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+      <article class="postcard d-flex light blue"> <!-- 1st card -->
+        <a class="postcard__img_link" href="#">
+          <img class="postcard__img" src="https://shimaahussien-code.github.io/template_3/images/siwa/img4.jpg" alt="Image Title" />
+        </a>
+        <div class="postcard__text t-dark">
+          <h1 class="postcard__title blue"><a href="#">Podcast Title</a></h1>
+          <div class="postcard__subtitle small">
+            <time datetime="2020-05-25 12:00:00">
+              <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+            </time>
+          </div>
+          <div class="postcard__bar"></div>
+          <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat
+            asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo
+            accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo
+            iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+          <ul class="postcard__tagbox">
+            <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+            <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+            <li class="tag__item play blue">
+              <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+            </li>
+          </ul>
+        </div>
+      </article>
+      <!-- </div> -->
+      </section>
+<h2 class="text-center text-light title" style="font-size: 30px;">Join Us</h2>
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="card m-3 bg-light " style="width: 250px; box-shadow: -5px -5px 20px 10px rgb(201, 198, 241);">
+            <div class="card-body text-info d-flex flex-column text-center">
+                <h3 class="card-title mb-4">Subscribe Now </h3>
+                <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="https://shimaahussien-code.github.io/template_3/images/twetter.jpg" type="image" alt="icon">
+                <a href="#" target="_blank" class="card-link h4 text-info  ">Go to link</a>
+            </div>
+        </div>
+        <div class="card m-3 bg-light " style="width: 250px; box-shadow: -5px -5px 20px 10px rgb(201, 198, 241);">
+            <div class="card-body text-info d-flex flex-column text-center">
+                <h3 class="card-title mb-4">Subscribe Now </h3>
+                <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="https://shimaahussien-code.github.io/template_3/images/whats.jpg" type="image" alt="icon">
+                <a href="#" target="_blank" class="card-link h4 text-info  ">Go to link</a>
+            </div>
+        </div>
+        <div class="card m-3 bg-light " style="width: 250px; box-shadow: -5px -5px 20px 10px rgb(201, 198, 241);">
+            <div class="card-body text-info d-flex flex-column text-center">
+                <h3 class="card-title mb-4">Subscribe Now </h3>
+                <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="https://shimaahussien-code.github.io/template_3/images/insta.jpg" type="image" alt="icon">
+                <a href="#" target="_blank" class="card-link h4 text-info  ">Go to link</a>
+            </div>
+        </div>
+        <div class="card m-3 bg-light " style="width: 250px; box-shadow: -5px -5px 20px 10px rgb(201, 198, 241);">
+            <div class="card-body text-info d-flex flex-column text-center">
+                <h3 class="card-title mb-4">Subscribe Now </h3>
+                <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="https://shimaahussien-code.github.io/template_3/images/in.jpg" type="image" alt="icon">
+                <a href="#" target="_blank" class="card-link h4 text-info  ">Go to link</a>
+            </div>
+        </div>
+    </div>    
+</div>
+<footer >
+    <!-- <div class="footer"> -->
+        <input type="image" src="images/SAIED WAEL.png" class="  rounded-circle mx-3 shadow" alt="pic" height="100px"
+                  width="100px">
+        <ul class="footer-links">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+        </ul>
+        <span class="text-center d-block title">Copyright © 2023 SAIED ELGABY, All rights reserved</span>
+        <!-- <p>copyright &copy; 2023 . all right reserved by saied</p> -->
+    <!-- </div> -->
+</div>
+</footer>
+
+
+
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
